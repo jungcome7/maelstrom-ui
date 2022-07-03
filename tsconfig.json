@@ -16,7 +16,14 @@
     "declarationDir": "dist/src",
     "outDir": "dist/src",
     "jsx": "preserve",
-    "forceConsistentCasingInFileNames": true
+    "forceConsistentCasingInFileNames": true,    
+    "baseUrl": ".",
+    "paths": {
+      "@styles": ["src/styles"],
+      "@styles*": ["src/styles*"],
+      "@components": ["src/components"],
+      "@components*": ["src/components*"],
+    }
   },
   "include": ["src"],
   "exclude": ["node_modules", ".storybook", "dist", "**/*.stories.tsx"]

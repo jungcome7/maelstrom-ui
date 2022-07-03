@@ -6,15 +6,14 @@ module.exports = {
   parser: '@typescript-eslint/parser',
   extends: [
     'eslint:recommended',
-    'plugin:prettier/recommended',
     'plugin:react/recommended',
     'plugin:@typescript-eslint/recommended',
+    'plugin:prettier/recommended',
   ],
   plugins: ['@typescript-eslint', 'react', 'jsx-a11y'],
   rules: {
     quotes: ['error', 'single'],
     semi: ['error', 'always'],
-    indent: ['error', 2, { SwitchCase: 1, ignoredNodes: ['TemplateLiteral'] }],
     'no-var': 'error',
     'max-len': 'off',
     'space-infix-ops': 'error',
@@ -37,7 +36,6 @@ module.exports = {
     '@typescript-eslint/no-shadow': 'error',
     '@typescript-eslint/type-annotation-spacing': 'error',
 
-    'react/jsx-max-props-per-line': ['error', { maximum: 1 }],
     'react/jsx-wrap-multilines': 'error',
     'react/jsx-closing-bracket-location': ['error', 'tag-aligned'],
     'react/jsx-tag-spacing': ['error', { beforeSelfClosing: 'always' }],

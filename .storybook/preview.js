@@ -1,4 +1,5 @@
-import { globalStyles } from '../src/styles';
+import { Global } from '@emotion/react';
+import { baseCSS } from '../src/styles';
 
 export const parameters = {
   actions: { argTypesRegex: '^on[A-Z].*' },
@@ -11,12 +12,10 @@ export const parameters = {
 };
 
 export const decorators = [
-  Story => {
-    globalStyles();
-    return (
-      <>
-        <Story />
-      </>
-    );
-  },
+  Story => (
+    <>
+      <Global styles={baseCSS} />
+      <Story />
+    </>
+  ),
 ];
