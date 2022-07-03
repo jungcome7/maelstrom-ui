@@ -2,7 +2,7 @@
   "branches": [
     "main"
   ],
-  "tagFormat": "${version}",
+  "tagFormat": "v${version}",
   "repository": "https://github.com/jungcome7/maelstrom-ui",
   "plugins": [
     "@semantic-release/github",
