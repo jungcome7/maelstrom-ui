@@ -1,7 +1,7 @@
 {
   "name": "maelstrom-ui",
   "packageManager": "yarn@3.2.1",
-  "version": "0.11.0",
+  "version": "1.0.0",
   "module": "./dist/src/index.js",
   "types": "./dist/src/index.d.ts",
   "files": [
