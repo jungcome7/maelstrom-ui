@@ -11954,6 +11954,7 @@ __metadata:
     rollup-plugin-typescript2: ^0.32.1
     rollup-plugin-url: ^3.0.1
     semantic-release: ^19.0.3
+    stitches-normalize-css: ^1.2.0
     tslib: ^2.4.0
     typescript: ^4.7.4
   languageName: unknown
@@ -15993,6 +15994,13 @@ __metadata:
   version: 2.0.1
   resolution: "statuses@npm:2.0.1"
   checksum: 18c7623fdb8f646fb213ca4051be4df7efb3484d4ab662937ca6fbef7ced9b9e12842709872eb3020cc3504b93bde88935c9f6417489627a7786f24f8031cbcb
+  languageName: node
+  linkType: hard
+
+"stitches-normalize-css@npm:^1.2.0":
+  version: 1.2.0
+  resolution: "stitches-normalize-css@npm:1.2.0"
+  checksum: 8d8e53e89ca0d57f66750a08882ba4ce405057b27d4febe978ed5466488746938381795ce74612f5bd31db5051bb69f376e760aff6d367af283547188ed70235
   languageName: node
   linkType: hard
 

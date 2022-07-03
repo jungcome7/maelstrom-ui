@@ -70,6 +70,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["rollup-plugin-typescript2", "virtual:c75d9c0e6d1a6c9a37ebdee33963a8b995472a4a36a8e2d99b1c8e755389a01d976122962cc66ea9bf4e6955616bccf040f9b62c7bfc07313e5fffba62256395#npm:0.32.1"],\
             ["rollup-plugin-url", "virtual:c75d9c0e6d1a6c9a37ebdee33963a8b995472a4a36a8e2d99b1c8e755389a01d976122962cc66ea9bf4e6955616bccf040f9b62c7bfc07313e5fffba62256395#npm:3.0.1"],\
             ["semantic-release", "npm:19.0.3"],\
+            ["stitches-normalize-css", "npm:1.2.0"],\
             ["tslib", "npm:2.4.0"],\
             ["typescript", "patch:typescript@npm%3A4.7.4#~builtin<compat/typescript>::version=4.7.4&hash=7ad353"]\
           ],\
@@ -17211,6 +17212,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["rollup-plugin-typescript2", "virtual:c75d9c0e6d1a6c9a37ebdee33963a8b995472a4a36a8e2d99b1c8e755389a01d976122962cc66ea9bf4e6955616bccf040f9b62c7bfc07313e5fffba62256395#npm:0.32.1"],\
             ["rollup-plugin-url", "virtual:c75d9c0e6d1a6c9a37ebdee33963a8b995472a4a36a8e2d99b1c8e755389a01d976122962cc66ea9bf4e6955616bccf040f9b62c7bfc07313e5fffba62256395#npm:3.0.1"],\
             ["semantic-release", "npm:19.0.3"],\
+            ["stitches-normalize-css", "npm:1.2.0"],\
             ["tslib", "npm:2.4.0"],\
             ["typescript", "patch:typescript@npm%3A4.7.4#~builtin<compat/typescript>::version=4.7.4&hash=7ad353"]\
           ],\
@@ -21765,6 +21767,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/statuses-npm-2.0.1-81d2b97fee-18c7623fdb.zip/node_modules/statuses/",\
           "packageDependencies": [\
             ["statuses", "npm:2.0.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["stitches-normalize-css", [\
+        ["npm:1.2.0", {\
+          "packageLocation": "./.yarn/cache/stitches-normalize-css-npm-1.2.0-e83054bff4-8d8e53e89c.zip/node_modules/stitches-normalize-css/",\
+          "packageDependencies": [\
+            ["stitches-normalize-css", "npm:1.2.0"]\
           ],\
           "linkType": "HARD"\
         }]\
