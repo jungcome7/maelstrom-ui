@@ -15,7 +15,7 @@ export const Size = () => {
 };
 
 export const Disabled = () => {
-  return <div>asdfasf</div>;
+  return <div>asasdfdfasf</div>;
 };
 
 export const Fullwidth = () => {
