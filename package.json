@@ -1,0 +1,58 @@
+{
+  "name": "maelstrom-ui",
+  "packageManager": "yarn@3.2.1",
+  "version": "0.11.0",
+  "module": "./dist/src/index.js",
+  "types": "./dist/src/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "sb": "start-storybook -p 6006",
+    "build": "rollup -c",
+    "build:storybook": "build-storybook"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.6",
+    "@babel/plugin-transform-runtime": "^7.18.6",
+    "@babel/preset-env": "^7.18.6",
+    "@babel/preset-react": "^7.18.6",
+    "@babel/preset-typescript": "^7.18.6",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@semantic-release/git": "^10.0.1",
+    "@stitches/react": "^1.2.8",
+    "@storybook/addon-essentials": "^6.5.9",
+    "@storybook/react": "^6.5.9",
+    "@svgr/rollup": "^6.2.1",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.3.0",
+    "@types/node": "^18.0.0",
+    "@types/react": "^18.0.14",
+    "@types/react-dom": "^18.0.5",
+    "@typescript-eslint/eslint-plugin": "^5.30.3",
+    "@typescript-eslint/parser": "^5.30.3",
+    "babel-loader": "^8.2.5",
+    "eslint": "^8.19.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-jsx-a11y": "^6.6.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.30.1",
+    "file-loader": "^6.2.0",
+    "jest": "^28.1.2",
+    "prettier": "^2.7.1",
+    "rollup": "^2.75.7",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-typescript2": "^0.32.1",
+    "rollup-plugin-url": "^3.0.1",
+    "semantic-release": "^19.0.3",
+    "tslib": "^2.4.0",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
